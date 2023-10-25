@@ -87,6 +87,10 @@ greetings("Pavle", "Radku", "Honzo", "Pepo");
 //; napravo od L
 // = - vedle backspacu
 
+
+
+
+/*
 //funkce lze opakovat
 
 let firstNumber = 5;
@@ -118,6 +122,6 @@ function getSentence(a,b) {
 const createSentence = (a,b) => `Tvoje jméno je ${a} a je ti ${b} let`;
 
 console.log(createSentence(person, age))
-
+*/
 
 

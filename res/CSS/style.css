@@ -4,8 +4,12 @@
 }
 body{
     background: radial-gradient(circle, rgb(37, 14, 65) 0%,  rgb(23, 7, 41) 100%) ;
-    margin: auto;
 }
+#menu{
+    display: flex;
+
+}
+
 
 #point{
     width: 50px;
@@ -15,7 +19,9 @@ body{
     border-radius: 100%;
     position: absolute;
     cursor: pointer;
-    transition: 0.3 ease;
+    transition: 0.7s ease-in;
+    top: 400px;
+    left: 720px;
 }
 #startGame{
     background-color: rgb(131, 50, 231);
@@ -24,5 +30,7 @@ body{
     padding: 10px;
     cursor: pointer;
     color:rgb(63, 18, 118);
-
+    border-radius: 5%;
+    position: absolute;
+    right: 1%;
 }
