@@ -1,9 +1,11 @@
 *{
     user-select: none;
     font-family: monospace;
+    
 }
 body{
     background: radial-gradient(circle, rgb(37, 14, 65) 0%,  rgb(23, 7, 41) 100%) ;
+    overflow: hidden; /*schová scroll-bar*/
 }
 #menu{
     display: flex;
@@ -22,6 +24,10 @@ body{
     transition: 0.7s ease-in;
     top: 400px;
     left: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
 }
 #startGame{
     background-color: rgb(131, 50, 231);
@@ -30,7 +36,12 @@ body{
     padding: 10px;
     cursor: pointer;
     color:rgb(63, 18, 118);
-    border-radius: 5%;
+    border-radius: 6%;
     position: absolute;
     right: 1%;
+}
+#timeInfo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
 }
